@@ -1,10 +1,11 @@
-package org.java.course;
+package org.java.course.lesson_2.lection_2;
 
 public class MainApp {
 
-   /* минусы такого подхода:
-   * - создание дополнительных методов
-    * перегрузки для создания метод которые ползволят ездить на ТС */
+    /* минусы такого подхода:
+     * - создание дополнительных методов
+     * перегрузки для создания метод которые
+     * ползволят ездить на ТС */
     static class Human {
         public void drive(Car car) {
             car.run();
@@ -13,8 +14,9 @@ public class MainApp {
         public void drive(Skateboard skateboard) {
             skateboard.runSkate();
         }
+
         public void drive(Bicycle bicycle) {
-          bicycle.running();
+            bicycle.running();
         }
     }
 

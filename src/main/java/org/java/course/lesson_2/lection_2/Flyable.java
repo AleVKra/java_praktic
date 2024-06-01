@@ -1,4 +1,4 @@
-package org.java.course;
+package org.java.course.lesson_2.lection_2;
 
 public interface Flyable {
     default void fly(){ }
