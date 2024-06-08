@@ -2,7 +2,7 @@
  * Copyright (c) 2022 Tander, All Rights Reserved.
  */
 
-package org.java.course.old.lesson2;
+package org.java.course.lesson2;
 
 /**
  * Класс Dock

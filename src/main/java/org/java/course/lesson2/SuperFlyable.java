@@ -1,4 +1,4 @@
-package org.java.course.old.lesson2;
+package org.java.course.lesson2;
 
 /**
  * Класс SuperFlyable
