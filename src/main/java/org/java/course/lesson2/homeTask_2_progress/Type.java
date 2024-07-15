@@ -1,4 +1,4 @@
-package org.java.course.lesson2.homeTask_2_noResalt;
+package org.java.course.lesson2.homeTask_2_progress;
 
 public enum Type {
     //   вид сущности
@@ -15,7 +15,7 @@ public enum Type {
     }
 
     // конструктор в Enum только приватный!
-    Type(int number) {
+    private Type(int number) {
         this.number = number;
     }
 

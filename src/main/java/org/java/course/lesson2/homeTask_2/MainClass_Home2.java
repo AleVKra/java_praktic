@@ -1,4 +1,4 @@
-package src.main.java.org.java.course.lection_1.lesson2.homeTask_2;
+package org.java.course.lesson2.homeTask_2;
 
 import org.java.course.lesson2.homeTask_2.Entity.*;
 import org.java.course.lesson2.homeTask_2.Obstacle.Wall;

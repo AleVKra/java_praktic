@@ -1,4 +1,4 @@
-package src.main.java.org.java.course.lection_1.lesson2.homeTask_2_noResalt;
+package org.java.course.lesson2.homeTask_2_noResalt;
 
 public interface Obstacle {
 

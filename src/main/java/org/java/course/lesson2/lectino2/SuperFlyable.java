@@ -1,4 +1,4 @@
-package src.main.java.org.java.course.lection_1.lesson2.lectino2;
+package org.java.course.lesson2.lectino2;
 
 /**
  * Класс SuperFlyable
