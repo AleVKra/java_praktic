@@ -1,18 +1,20 @@
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+package src.main.java.org.java.course.lection_1.lesson2.homeTask_2.Entity;
+
 import org.java.course.lesson2.homeTask_2.Obstacle.*;
 
 
-@Getter
-@Setter
-@AllArgsConstructor
-public class Cat implements Wall, TreadMill {
-    final int maxDistance = 2;
-    final int maxHeight = 2;
+public class Cat implements Wall, TreadMill{
+    private String name;
+    private double maxValue;
+
+    public Cat(String name, double maxValue) {
+        this.name = name;
+        this.maxValue = maxValue;
+    }
 
     @Override
-    public void run(int distance) {
+    public void run(double distance) {
+        double maxDistance = maxValue;
         if (distance <= maxDistance) {
             System.out.println("Кот пробоежал дистанцию");
         }
@@ -20,10 +22,11 @@ public class Cat implements Wall, TreadMill {
     }
 
     @Override
-    public void jump(int height) {
+    public void jump(double height) {
+        double maxHeight = maxValue;
         if (height <= maxHeight) {
-            System.out.println("Кот перепрыгнул стену");
+            System.out.println("Кот " + name + " перепрыгнул стену");
         }
-        System.out.println("Не смог перепрыгнуть высоту");
+        System.out.println("Cat " + name + " Не смог перепрыгнуть высоту");
     }
 }
