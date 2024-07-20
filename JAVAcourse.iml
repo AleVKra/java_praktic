@@ -10,5 +10,7 @@
     <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.12" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.25" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.25" level="project" />
   </component>
 </module>
