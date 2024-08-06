@@ -3,10 +3,21 @@ package org.java.course.lesson_4.collection.homeTask_4;
 import java.util.Arrays;
 
 public class ReplacingElements {
+    /*
+     * СПОСОБ ПЕРЕСТАНОВКИ ИСПОЛЬЗУЯ ДЖЕНЕРИКИ
+     */
+    public void permutationGen(Object[] arr, int n1, int n2){
+        Object obj = arr[n1];
+        arr[n1]=arr[n2];
+        arr[n2]=obj;
+        Arrays.stream(arr).forEach(e -> System.out.print(e + "; ")); // вывод массива
+        System.out.println("");
+    }
 
 
-    /* перестановка указанных элементов массива*/
-    static void permutation(int[] arr) {
+    /* перестановка указанных элементов массива
+     * обычный способ перестановки БЕЗ ДЖЕНЕРИКОВ*/
+    void permutation(int[] arr) {
         int el1 = arr[6];
         int el2 = arr[3];
         int el1Index = 0;

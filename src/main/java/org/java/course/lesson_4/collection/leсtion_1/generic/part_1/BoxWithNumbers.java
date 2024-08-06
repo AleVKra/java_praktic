@@ -2,7 +2,7 @@
  * Copyright (c) 2022 Tander, All Rights Reserved.
  */
 
-package org.java.course.lesson_4.collection.leсtion_1.generic.lesson;
+package org.java.course.lesson_4.collection.leсtion_1.generic.part_1;
 
 /* наследование от Number - защита от других наследуемых типов данных от Object
 - так же появляются методы класса Number
@@ -37,7 +37,8 @@ public class BoxWithNumbers<N extends Number> {
      *  */
     // public boolean compareAverage(BoxWithNumbers<N> another) {
 
-    public boolean compareAverage(BoxWithNumbers<?> another) {      // в данном случае можно сравнивать разные типы
+    public boolean compareAverage(BoxWithNumbers<?> another) {
+        // в данном случае можно сравнивать разные типы
         return Math.abs(this.average() - another.average()) < 0.0001;
     }
 }

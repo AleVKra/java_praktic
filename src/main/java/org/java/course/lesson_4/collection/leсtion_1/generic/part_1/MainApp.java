@@ -2,9 +2,7 @@
  * Copyright (c) 2022 Tander, All Rights Reserved.
  */
 
-package org.java.course.lesson_4.collection.leсtion_1.generic.lesson;
-
-import java.util.Collection;
+package org.java.course.lesson_4.collection.leсtion_1.generic.part_1;
 
 // ПОЧЕМУ НУЖНЫ ДЖЕНЕРИКИ (обощения)???
 public class MainApp {
@@ -95,7 +93,6 @@ public class MainApp {
          * */
         method1(new int[]{1, 2, 3, 4, 5});
         method2(1, 2, 3, 4, 5);
-
     }
     /*
      * ПРИ ЖЕЛАНИИ сделать что то с коробкой, можно написать что это
@@ -111,6 +108,7 @@ public class MainApp {
      * Разница GenBox<Number> от GenBox<? extends Number>:
      * - разница состоит в том что в ОБОБЩЕНИЯХ НЕ РАБОТАЕТ НАСЛЕДОВАНИЕ
      * */
+
     public static void doSomething2(GenBox<Number> box) {
     }
 

@@ -8,8 +8,13 @@ public class MainHome_4 {
     public static void main(String[] args) {
         ReplacingElements replacingElements = new ReplacingElements();
         int[] arr = new int[]{56, 76, 53, 4563, 13, 35, -95, 38, -645, 123, -5};
-        System.out.println(" перестановка указанных занчений: ");
+        System.out.println(" перестановка указанных занчений массива обычным способом: ");
         replacingElements.permutation(arr);
+
+        Object[]arr1 = new Object[]{56, 76, 53, 4563, 13, 35, -95, 38, -645, 123, -5};
+        System.out.println(" перестановка указанных занчений массива при помощи Дженерика: ");
+        replacingElements.permutationGen(arr1, 1, 6);
+        System.out.println(arr1);
 
         ArrayToList arrayToList = new ArrayToList();
         String array[] = {"Kivi", "Oranges", "vegetables"};

@@ -2,7 +2,7 @@
  * Copyright (c) 2022 Tander, All Rights Reserved.
  */
 
-package org.java.course.lesson_4.collection.leсtion_1.generic.lesson;
+package org.java.course.lesson_4.collection.leсtion_1.generic.part_1;
 /* Т - может быть строкой или числом, котом или собакой....
 Обобщеине - это переменный тип.
 примитивы нельзя использовать, только ссылочный тип данных

@@ -16,7 +16,7 @@ public class ArrayToList {
 Теперь добавьте каждый элемент в массив.
 Верните полный список.
 В данном примере массив фруктов преобразуется в список фруктов:*/
-    public <T> List<T> convertArrayToList(T array[]) {
+    public <T> List<T> convertArrayToList(T[] array) {
         System.out.println("метод преобразующий массив в ArrayList 1-ый способ: ");
         List<T> list = new ArrayList<>();
         for (T t : array) {

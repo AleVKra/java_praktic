@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2022 Tander, All Rights Reserved.
  */
-package org.java.course.lesson_4.collection.leсtion_1.generic.lesson;
+package org.java.course.lesson_4.collection.leсtion_1.generic.part_1;
 
 public class SimplBox {
 
